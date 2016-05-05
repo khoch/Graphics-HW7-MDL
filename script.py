@@ -59,7 +59,6 @@ def run(filename):
                 matrix_mult( temp, stack[-1] )
                 draw_polygons( temp, screen, color )
 
-
         elif command[0] == 'scale':
                 s = make_scale( command[1], command[2], command[3] )
                 matrix_mult( s, stack[-1] )
